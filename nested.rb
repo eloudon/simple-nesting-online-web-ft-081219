@@ -58,6 +58,7 @@ def dennis_ritchies_language
         }
      }
 		 programmer_hash[:dennis_ritchie][:languages].first
+		 # [:language][0] would have also worked. ["C"] is an array inside the hash
 end
 
 def adding_matz
